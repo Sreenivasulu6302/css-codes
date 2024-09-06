@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+   
+    background-image: url(https://th.bing.com/th/id/R.8b90de9eb9546a4ceb8d7cbcb4678539?rik=xWtZRBFxVNL%2fvQ&riu=http%3a%2f%2fp.motionelements.com%2fstock-video%2farts%2fme8957933-animated-background-musical-notes-a0405.jpg&ehk=e9Gk4Urd5csn846xbiZQiWNAkJjewXMmgdSHEPv3Fiw%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    height: 150px;
+    transform: rotate(180deg);
+    
+}
+
+.container span{
+    height: 110px;
+    width: 60px;
+    background: #fff;
+    margin: 0 2px;
+    border-radius: 5px;
+    animation: loading 3s infinite;
+    transform-origin: ;
+
+}
+@keyframes loading{
+    0%,100%{
+        height: 10px;
+        background: #07de8c
+    }
+    25%{
+        height: 90px;
+        background: rgb(92, 193, 92);
+    }
+    50%{
+        height: 40px;
+        background: hsl(0, 100%, 50%)
+    }
+    75%{
+        height: 90px;
+        background: rgb(20, 255, 118)
+    }
+}
+
+.container span:nth-child(1){
+    animation-delay: 0.4s;
+}
+.container span:nth-child(2){
+    animation-delay: 0.5s;
+}
+.container span:nth-child(3){
+    animation-delay: 0.8s;
+}
+.container span:nth-child(4){
+    animation-delay: 0.8s;
+}
+.container span:nth-child(5){
+    animation-delay: 2s;
+}
