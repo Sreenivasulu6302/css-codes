@@ -1,0 +1,17 @@
+body{
+    margin:0%;
+    padding: 0%;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color:darkblue;
+    width: 200px;
+    height:200px;
+}
+@media screen  (width<800px)and(width>600px){
+    .container{
+        background-color: blueviolet;
+    }
+}

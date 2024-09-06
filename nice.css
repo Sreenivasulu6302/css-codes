@@ -1,0 +1,83 @@
+*{
+        padding: 0;
+        margin: 0;
+    }
+.parent{
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
+margin: 0px 200px;
+}
+.item{
+font-size: 2rem;
+padding: 10px;
+flex: 1 1 30%;
+background-size: cover;
+}
+img{
+  width: 300px;
+  height: 300px;
+  display:block;
+transition: .3s;
+}
+.item1{
+  overflow: hidden;
+}
+.item1:hover img{
+  scale: 1.1;
+}
+.item2{
+  overflow: hidden;
+}
+.item2:hover img{
+  scale: 1.1;
+}
+.item3{
+  overflow: hidden;
+}
+.item3:hover img{
+  scale: 1.1;
+}
+.item4{
+  overflow: hidden;
+}
+.item4:hover img{
+  scale: 1.1;
+}
+.item5{
+  overflow: hidden;
+}
+.item5:hover img{
+  scale: 1.1;
+}
+.item6{
+  overflow: hidden;
+}
+.item6:hover img{
+  scale: 1.1;
+}
+.item7{
+  overflow: hidden;
+}
+.item7:hover img{
+  scale: 1.1;
+}
+.item8{
+  overflow: hidden;
+}
+.item8:hover img{
+  scale: 1.1;
+}
+.item9{
+  overflow: hidden;
+}
+.item9:hover img{
+  scale: 1.1;
+}
+
+
+
+
+
+
+  

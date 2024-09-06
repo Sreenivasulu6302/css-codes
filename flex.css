@@ -1,0 +1,42 @@
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+.parent{
+    background-color: rgb(219, 249, 249);
+    padding: 20px;
+    display: flex;
+    flex-wrap:wrap;
+}
+.child{
+    width: 400px;
+    background-color: aqua;
+    margin: 10px;
+    padding: 20px;
+}
+.one{
+
+}
+.one-top{
+    display: flex;
+    justify-content:flex-start ;
+    gap: 25px;
+}
+.one-middle{
+font-weight: 700;
+}
+.one-last{
+     display: flex;
+     justify-content:space-between;
+}
+.fa-star{
+    color:greenyellow;
+}
+.textdec{
+    text-decoration:none;
+}
+
+
+
+

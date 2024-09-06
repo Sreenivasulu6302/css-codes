@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Cointener{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 0 150px;
+    
+}
+.item{
+    padding: 20px;
+    flex: 1 1 450px;
+    font-size: 2rem;
+
+}
+img{
+    width: 350px;
+    height: 350px;
+    display: block;
+    transition: .3s;
+}
+.item1{
+    overflow: hidden;
+}
+.item1:hover img{
+    scale: 1.1;
+ filter: brightness(40%);
+}
+.item2{
+    overflow: hidden;
+}
+.item2:hover img{
+    scale: 1.1;
+    filter: brightness(40%);
+}
+.item3{
+    overflow: hidden;
+}
+.item3:hover img{
+    scale: 1.1;
+    filter: brightness(40%);
+}
+.item4{
+    overflow: hidden;
+}
+.item4:hover img{
+    scale: 1.1;
+    filter: brightness(40%);
+}
+.item5{
+    overflow: hidden;
+}
+.item5:hover img{
+    scale: 1.1;
+    filter: brightness(40%);
+}
+.item6{
+    overflow: hidden;
+}
+.item6:hover img{
+    scale: 1.1;
+    filter: brightness(40%);
+}
+.item7{
+    overflow: hidden;
+}
+.item7:hover img{
+    scale: 1.1;
+    filter: brightness(40%);
+}
+.item8{
+    overflow: hidden;
+}
+.item8:hover img{
+    scale: 1.1;
+    filter: brightness(40%);
+}
+.item9{
+    overflow: hidden;
+}
+.item9:hover img{
+    scale: 1.1;
+    filter: brightness(40%);
+}

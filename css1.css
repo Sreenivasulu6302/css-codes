@@ -1,0 +1,25 @@
+.container{
+    width: 1300px;
+    border-radius:10px;
+    border-style: solid;
+    background-color: aqua;
+    border-color: blueviolet;
+
+}
+section{
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+    vertical-align: top;
+    padding: 10px;
+}
+h1{
+    display: block;
+}
+img{
+    width:300px;
+border-color: aquamarine;
+background-color: beige;
+}
+
+
